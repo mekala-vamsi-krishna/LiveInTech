@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC3CDE192DFFFC53005722A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3CDE182DFFFC53005722A6 /* ContentView.swift */; };
+		AC3CDE252DFFFC76005722A6 /* PincodeLookupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3CDE242DFFFC75005722A6 /* PincodeLookupView.swift */; };
+		AC3CDE292E000105005722A6 /* InfoRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3CDE282E000105005722A6 /* InfoRowView.swift */; };
+		AC3CDE2B2E00015F005722A6 /* PincodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3CDE2A2E00015F005722A6 /* PincodeModel.swift */; };
+		AC3CDE302E000EA1005722A6 /* IFSCCodeLookupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3CDE2F2E000EA1005722A6 /* IFSCCodeLookupView.swift */; };
+		AC3CDE322E0012E6005722A6 /* BankDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3CDE312E0012E2005722A6 /* BankDetailModel.swift */; };
+		AC3CDE342E001343005722A6 /* IFSC Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3CDE332E001343005722A6 /* IFSC Service.swift */; };
+		AC3CDE3A2E0013ED005722A6 /* BankDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3CDE392E0013ED005722A6 /* BankDetailView.swift */; };
+		AC3CDE3C2E001657005722A6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3CDE3B2E001657005722A6 /* HomeView.swift */; };
+		AC3CDE3E2E001674005722A6 /* HomeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3CDE3D2E001674005722A6 /* HomeCardView.swift */; };
+		AC3CDE402E001797005722A6 /* PublicHolidayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3CDE3F2E001797005722A6 /* PublicHolidayModel.swift */; };
+		AC3CDE442E0017F2005722A6 /* PublicHolidayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3CDE432E0017F2005722A6 /* PublicHolidayView.swift */; };
+		AC3CDE482E0026E6005722A6 /* HolidayRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3CDE472E0026E6005722A6 /* HolidayRowView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC3CDE132DFFFC53005722A6 /* LiveInTech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveInTech.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC3CDE182DFFFC53005722A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC3CDE242DFFFC75005722A6 /* PincodeLookupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PincodeLookupView.swift; sourceTree = "<group>"; };
+		AC3CDE282E000105005722A6 /* InfoRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoRowView.swift; sourceTree = "<group>"; };
+		AC3CDE2A2E00015F005722A6 /* PincodeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PincodeModel.swift; sourceTree = "<group>"; };
+		AC3CDE2F2E000EA1005722A6 /* IFSCCodeLookupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IFSCCodeLookupView.swift; sourceTree = "<group>"; };
+		AC3CDE312E0012E2005722A6 /* BankDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankDetailModel.swift; sourceTree = "<group>"; };
+		AC3CDE332E001343005722A6 /* IFSC Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IFSC Service.swift"; sourceTree = "<group>"; };
+		AC3CDE392E0013ED005722A6 /* BankDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankDetailView.swift; sourceTree = "<group>"; };
+		AC3CDE3B2E001657005722A6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AC3CDE3D2E001674005722A6 /* HomeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCardView.swift; sourceTree = "<group>"; };
+		AC3CDE3F2E001797005722A6 /* PublicHolidayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicHolidayModel.swift; sourceTree = "<group>"; };
+		AC3CDE432E0017F2005722A6 /* PublicHolidayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicHolidayView.swift; sourceTree = "<group>"; };
+		AC3CDE472E0026E6005722A6 /* HolidayRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayRowView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AC3CDE152DFFFC53005722A6 /* LiveInTech */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LiveInTech;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC3CDE102DFFFC53005722A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC3CDE0A2DFFFC52005722A6 = {
+			isa = PBXGroup;
+			children = (
+				AC3CDE152DFFFC53005722A6 /* LiveInTech */,
+				AC3CDE2C2E000D5D005722A6 /* Model */,
+				AC3CDE2D2E000D65005722A6 /* View */,
+				AC3CDE422E0017D8005722A6 /* Public Holidays */,
+				AC3CDE2E2E000D6D005722A6 /* ViewModel */,
+				AC3CDE142DFFFC53005722A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC3CDE142DFFFC53005722A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC3CDE132DFFFC53005722A6 /* LiveInTech.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC3CDE2C2E000D5D005722A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC3CDE312E0012E2005722A6 /* BankDetailModel.swift */,
+				AC3CDE2A2E00015F005722A6 /* PincodeModel.swift */,
+				AC3CDE3F2E001797005722A6 /* PublicHolidayModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC3CDE2D2E000D65005722A6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC3CDE182DFFFC53005722A6 /* ContentView.swift */,
+				AC3CDE412E0017BF005722A6 /* Home */,
+				AC3CDE362E00136B005722A6 /* Pin Code */,
+				AC3CDE352E001365005722A6 /* Bank */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC3CDE2E2E000D6D005722A6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AC3CDE332E001343005722A6 /* IFSC Service.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AC3CDE352E001365005722A6 /* Bank */ = {
+			isa = PBXGroup;
+			children = (
+				AC3CDE2F2E000EA1005722A6 /* IFSCCodeLookupView.swift */,
+				AC3CDE392E0013ED005722A6 /* BankDetailView.swift */,
+			);
+			path = Bank;
+			sourceTree = "<group>";
+		};
+		AC3CDE362E00136B005722A6 /* Pin Code */ = {
+			isa = PBXGroup;
+			children = (
+				AC3CDE282E000105005722A6 /* InfoRowView.swift */,
+				AC3CDE242DFFFC75005722A6 /* PincodeLookupView.swift */,
+			);
+			path = "Pin Code";
+			sourceTree = "<group>";
+		};
+		AC3CDE412E0017BF005722A6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AC3CDE3B2E001657005722A6 /* HomeView.swift */,
+				AC3CDE3D2E001674005722A6 /* HomeCardView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AC3CDE422E0017D8005722A6 /* Public Holidays */ = {
+			isa = PBXGroup;
+			children = (
+				AC3CDE432E0017F2005722A6 /* PublicHolidayView.swift */,
+				AC3CDE472E0026E6005722A6 /* HolidayRowView.swift */,
+			);
+			path = "Public Holidays";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC3CDE122DFFFC53005722A6 /* LiveInTech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC3CDE212DFFFC54005722A6 /* Build configuration list for PBXNativeTarget "LiveInTech" */;
+			buildPhases = (
+				AC3CDE0F2DFFFC53005722A6 /* Sources */,
+				AC3CDE102DFFFC53005722A6 /* Frameworks */,
+				AC3CDE112DFFFC53005722A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AC3CDE152DFFFC53005722A6 /* LiveInTech */,
+			);
+			name = LiveInTech;
+			packageProductDependencies = (
+			);
+			productName = LiveInTech;
+			productReference = AC3CDE132DFFFC53005722A6 /* LiveInTech.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC3CDE0B2DFFFC52005722A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					AC3CDE122DFFFC53005722A6 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = AC3CDE0E2DFFFC52005722A6 /* Build configuration list for PBXProject "LiveInTech" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC3CDE0A2DFFFC52005722A6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AC3CDE142DFFFC53005722A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC3CDE122DFFFC53005722A6 /* LiveInTech */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC3CDE112DFFFC53005722A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC3CDE0F2DFFFC53005722A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3CDE2B2E00015F005722A6 /* PincodeModel.swift in Sources */,
+				AC3CDE402E001797005722A6 /* PublicHolidayModel.swift in Sources */,
+				AC3CDE192DFFFC53005722A6 /* ContentView.swift in Sources */,
+				AC3CDE322E0012E6005722A6 /* BankDetailModel.swift in Sources */,
+				AC3CDE3C2E001657005722A6 /* HomeView.swift in Sources */,
+				AC3CDE442E0017F2005722A6 /* PublicHolidayView.swift in Sources */,
+				AC3CDE3A2E0013ED005722A6 /* BankDetailView.swift in Sources */,
+				AC3CDE342E001343005722A6 /* IFSC Service.swift in Sources */,
+				AC3CDE482E0026E6005722A6 /* HolidayRowView.swift in Sources */,
+				AC3CDE302E000EA1005722A6 /* IFSCCodeLookupView.swift in Sources */,
+				AC3CDE252DFFFC76005722A6 /* PincodeLookupView.swift in Sources */,
+				AC3CDE3E2E001674005722A6 /* HomeCardView.swift in Sources */,
+				AC3CDE292E000105005722A6 /* InfoRowView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AC3CDE1F2DFFFC54005722A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC3CDE202DFFFC54005722A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC3CDE222DFFFC54005722A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LiveInTech/Preview Content\"";
+				DEVELOPMENT_TEAM = K4K55XNXA6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LiveInTech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC3CDE232DFFFC54005722A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LiveInTech/Preview Content\"";
+				DEVELOPMENT_TEAM = K4K55XNXA6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LiveInTech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC3CDE0E2DFFFC52005722A6 /* Build configuration list for PBXProject "LiveInTech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3CDE1F2DFFFC54005722A6 /* Debug */,
+				AC3CDE202DFFFC54005722A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC3CDE212DFFFC54005722A6 /* Build configuration list for PBXNativeTarget "LiveInTech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3CDE222DFFFC54005722A6 /* Debug */,
+				AC3CDE232DFFFC54005722A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC3CDE0B2DFFFC52005722A6 /* Project object */;
+}
